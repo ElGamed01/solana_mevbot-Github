@@ -1,0 +1,17 @@
+[package]
+name = "solana_mevbot"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+solana-client = "1.10.3"
+solana-sdk = "1.10.3"
+tokio = { version = "1.10", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+reqwest = "0.11"
+futures = "0.3"
+solana-transaction-status = "1.10"
+log = "0.4"
+ed25519-dalek = "1.0.0-pre.3"
+env_logger = "0.9"
+serde_json = "1.0"
